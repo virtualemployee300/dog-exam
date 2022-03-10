@@ -19,7 +19,11 @@ function App() {
        {allDogs.map((data)=>(
           <img src={data.newDogsData.message} className="img"/>
         ))} 
-       <button type="button" className="btn" onClick={(e)=>addDogs()}> <i className="fa fa-plus txt"></i></button>
+       <button type="button" className="btn" onClick={(e)=>addDogs()}> 
+       <i className="fa fa-plus txt"></i>
+       <br/>
+       <span className="btnSpan">Add Dog</span>
+       </button>
     </div>
     </div>
   )
