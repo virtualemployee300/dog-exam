@@ -1,0 +1,18 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.btn{height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+} 
+.img{height: 200px;
+     width: 200px;
+     padding: 10px;
+   }
+ .txt{
+  font-size: 22px;
+ }  
+  
+
